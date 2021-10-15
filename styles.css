@@ -1,0 +1,97 @@
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 0;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-weight: normal;
+	color: #b2bec3;
+	margin-top: 1px;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 2em;
+	margin-top: 1em;
+	margin-bottom: 10px;
+}
+
+.first {
+	text-align: center;
+	position: relative;
+	margin: 0;
+	height: 20%;
+}
+
+.second {
+	position: relative;
+	margin-top: 1em;
+	text-align: center;
+	height: 20%;
+}
+
+.third {
+	position: relative;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;
+	height: 40%;
+}
+
+.vip {
+	font-weight: bold;
+	color: black;
+}
+
+.vip1 {
+	font-weight: bold;
+	color: blue;
+}
+
+.vip2 {
+	width: 55%;
+}
+
+.vip3 {
+	width: 1%;
+	margin-bottom: 0.5em;
+	border-radius: 50px;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.vip3:hover {
+	background-color: skyblue;
+}
+
+.button {
+	background-color: #4784fc;
+	color: white;
+	box-shadow: 0px 2px 15px 0px #a2bdf2;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 80px;
+	width: auto;
+	border: none;
+}
+
+input[type="email"] {
+	border-style: ridge;
+	border-radius: 60px;
+	width: 300px;
+	font-size: 12px;
+	margin: 4px 2px;
+	padding: 10px 20px;
+	text-align: left;
+}
+
+input:invalid {
+	background-color: none;
+	border-color: red;
+}
